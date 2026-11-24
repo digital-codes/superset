@@ -311,7 +311,7 @@ timescaledb = ["apache-superset[postgres]"]
 thumbnails = [] # deprecated, will be removed in 7.0
 vertica = ["sqlalchemy-vertica-python>= 0.6.3, < 0.7"]
 netezza = ["nzalchemy>= 11.1.2, < 11.2"]
-starrocks = ["starrocks>=1.3.4, <2"]
+starrocks = ["starrocks>=1.3.5, <2"]
 doris = ["pydoris>=1.2.0, <2.0.0"]
 # No `oceanbase` extra is published here: oceanbase_py pins
 # sqlalchemy-utils>=0.38.3,<0.39, which conflicts outright with Superset's
